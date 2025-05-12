@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etoile Test </title>
+  <style>
+    .star {
+      width: 150px;
+      height: 150px;
+      background: gold;
+      clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+      );
+      position: relative;
+      animation: moveStar 2s infinite alternate ease-in-out;
+    }
+
+    @keyframes moveStar {
+      from {
+        left: 0;
+      }
+      to {
+        left: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="star"></div>
+</body>
+</html>
+<h1 style="color: rgb(0, 195, 255);">Jenny</h1>
+
+
+    
